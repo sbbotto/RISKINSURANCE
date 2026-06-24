@@ -14,11 +14,11 @@ Dependencies:
 Usage examples:
     python car_report_ingest.py --once \
         --folder "C:\\Users\\QKU4847\\OneDrive - HCA Healthcare\\CARProject" \
-        --conn "Driver={ODBC Driver 18 for SQL Server};Server=XRDCWPDBSMST02;Database=HCI_Insurance;UID=USER;PWD=PASS;TrustServerCertificate=yes"
+        --conn "Driver={ODBC Driver 18 for SQL Server};Server=;Database=;UID=USER;PWD=PASS;TrustServerCertificate=yes"
 
     python car_report_ingest.py --watch \
         --folder "C:\\Users\\QKU4847\\OneDrive - HCA Healthcare\\CARProject" \
-        --conn "Driver={ODBC Driver 18 for SQL Server};Server=XRDCWPDBSMST02;Database=HCI_Insurance;UID=USER;PWD=PASS;TrustServerCertificate=yes"
+        --conn "Driver={ODBC Driver 18 for SQL Server};Server=;Database=;UID=USER;PWD=PASS;TrustServerCertificate=yes"
 
 If no connection string is supplied, the script runs in dry-run mode and prints JSON.
 """
