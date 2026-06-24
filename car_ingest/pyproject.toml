@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "car-ingest"
+version = "0.1.0"
+description = "Ingest Case Assessment Report DOCX files into SQL Server"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pyodbc>=5.0.1"]
+
+[project.scripts]
+car-ingest = "car_ingest.cli:main"
